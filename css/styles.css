@@ -257,6 +257,9 @@ Advantages section #2
 }
 
 .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   height: 112px;
   width: 264px;
@@ -297,6 +300,7 @@ team section #3
 =============*/
 .team-color {
   display: flex;
+  background-color: #f4f4fd;
 }
 .team-list {
   display: flex;
