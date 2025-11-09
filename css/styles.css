@@ -171,11 +171,6 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .nav-list .list:hover,
-.nav-list .list:focus,
-.list.current {
-  color: #404bbf;
-} */
 .list:hover,
 .list:focus,
 .info-list:hover,
@@ -183,11 +178,6 @@ section {
 .list.current {
   color: #404bbf;
 }
-
-/* .contact-list .info-list:hover,
-.contact-list .info-list:focus {
-  color: #404bbf;
-} */
 
 /*============
 section #1
@@ -303,8 +293,6 @@ team section #3
 .team-color {
   display: flex;
   background-color: #f4f4fd;
-  width: 1440px;
-  margin: 0 auto;
 }
 .team-list {
   display: flex;
@@ -477,10 +465,7 @@ footer
 
 .section-color {
   padding: 100px 0;
-
   background-color: #2e2f42;
-  width: 1440px;
-  margin: 0 auto;
 }
 .text {
   max-width: 264px;
@@ -502,21 +487,11 @@ footer
 
 .footer-container {
   display: flex;
-  justify-content: flex-start;
-  gap: 120px;
-  align-items: flex-start;
-  padding-left: 0;
+  align-items: baseline;
 }
 
 .container-logo {
-  text-align: left;
-  flex-direction: column;
-  display: flex;
-}
-
-.container-link {
-  display: flex;
-  flex-direction: column;
+  margin-right: 120px;
 }
 
 .social-media-text {
