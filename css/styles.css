@@ -189,7 +189,7 @@ section #1
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('/images/backgrimg.jpg');
+    url('../images/backgrimg.jpg');
   color: #fff;
   font-weight: 700;
   padding: 188px 0;
